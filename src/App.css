@@ -1,7 +1,18 @@
 h1{
-  color: red;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
-  background-color: gray;
+  background-color: darkslateblue;
+  text-align: center;
 
+}
+
+p{
+  font-weight: bold;
+  text-align: center;
+}
+ol{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
