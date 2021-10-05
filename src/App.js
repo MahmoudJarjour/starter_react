@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
+import TodoList from './Components/TodoList';
 import './App.css';
 
-function App() {
-  return (
-    <h1>Hello World</h1>
-  );
-}
+  class App extends Component {
+    render(){
+        return (
+          <TodoList />
+      );
+   }
+  }
 
 export default App;

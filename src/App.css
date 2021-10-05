@@ -1,4 +1,7 @@
 h1{
   color: red;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  background-color: gray;
+
 }
