@@ -1,9 +1,11 @@
-h1{
-  color: red;
-  font-size: 50px;
-  background-color: black;
+.container{
+  margin-top: 10px;
 }
 
-#root{
-  background-color: rgb(212, 182, 182);
+div{
+  margin-bottom: 10px;
+}
+
+label{
+  padding-left: 10px;
 }
