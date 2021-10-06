@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import TodoList from './Components/TodoList';
-import Paragraph from './Components/Paragraph';
+
+import Header from './Components/Header';
 import './App.css';
+import Social from './Components/Social';
+import Text from './Components/Text';
 
 
   class App extends Component {
     render(){
         return (
-          <div>
-            <TodoList />
-            <Paragraph />
+          <div className="Container">
+            <Header />
+            <Text />
+            <Social />
           </div>
           
       );
