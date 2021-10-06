@@ -37,7 +37,6 @@ function Team(){
                         name:'meme',
                         nick:'soso',
                         address:'Hamra',
-                        email:'dodododo@googogogog.com',
                         phone: '32168465168',
                         website:'www.lkavdlb.com',
                     }}
@@ -61,7 +60,6 @@ function Team(){
                         name:'dada',
                         nick:'koko',
                         address:'Hamra',
-                        email:'dodododo@googogogog.com',
                         phone: '3643216846',
                         website:'www.lkavdlb.com',
                     }}
