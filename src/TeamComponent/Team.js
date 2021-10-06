@@ -6,8 +6,8 @@ function Team(){
 
 
     return (
-        <div>
-            <ul className="row" >
+        <div className="row" >
+        
                 <TeamMember 
                     obj={{
                         img:'https://picsum.photos/320',
@@ -66,8 +66,7 @@ function Team(){
                         phone: '3643216846',
                     }}
                 />
-           
-            </ul>
+        
         </div>
     );
 }
