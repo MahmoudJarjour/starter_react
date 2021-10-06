@@ -4,13 +4,23 @@ function Header(){
     
     const client = "android";
 
-    const title_web = "Welcome To Web Area " ;
-    const title_others = "Welcome to development area  ";
+    
 
+    const title = {
+        web : "Welcome To Web Area ",
+        others : "Welcome to development area"
+    }
+
+    const clientInfo = {
+        name: "lolo",
+        nick : "dodo"
+    }
    
     return (
-        <div className="navbar bg-dark rounded">
-            <h1 className=" text-white"> {  client === "web" ? title_web : title_others } </h1>
+        <div className="navbar bg-dark rounded text-white">
+            {`${clientInfo.name} 
+            ${clientInfo.nick}`}
+            <h2> {  client === "web" ? title.web : title.others } </h2>
         </div>
 
     );
