@@ -4,8 +4,8 @@ import SocialItem from "./SocialItem";
 class Social extends Component {
     render(){
         return (
-            <div>
-                <ul className="list-group">
+            <div >
+                <ul className="list-group row" >
                     <SocialItem 
                         obj ={{
                          site : 'Facebook' ,
