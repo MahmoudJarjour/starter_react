@@ -6,9 +6,9 @@ function SocialItem (props){
     return (
         <div>
             <li className="list-group-item">
-                        <img src={props.img}/>
-                        <input type="checkbox" id={props.id}/>
-                        <label for={props.id}> {props.site} </label>
+                        <img src={props.obj.img} alt={`icon of ${props.obj.site}`}/>
+                        <input type="checkbox" id={props.obj.id}/>
+                        <label htmlFor={props.obj.id}> {props.obj.site} </label>
             </li>
         </div>
     );

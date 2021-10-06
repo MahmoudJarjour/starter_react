@@ -11,10 +11,6 @@ function Header(){
         others : "Welcome to development area"
     }
 
-    const clientInfo = {
-        name: "lolo",
-        nick : "dodo"
-    }
    
     return (
         <div className="navbar bg-dark rounded text-white"> 

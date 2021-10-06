@@ -4,7 +4,6 @@ import Header from './Components/Header';
 import './App.css';
 import Social from './Components/Social';
 import Text from './Components/Text';
-import SocialItem from './Components/SocialItem';
 
 
   class App extends Component {
