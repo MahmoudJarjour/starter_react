@@ -12,3 +12,11 @@ label{
 #textchangecolor{
   color: red;
 }
+
+input{
+  padding-left: 10px;
+}
+
+img{
+  padding: 10px;
+}

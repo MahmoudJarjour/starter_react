@@ -17,9 +17,7 @@ function Header(){
     }
    
     return (
-        <div className="navbar bg-dark rounded text-white">
-            {`${clientInfo.name} 
-            ${clientInfo.nick}`}
+        <div className="navbar bg-dark rounded text-white"> 
             <h2> {  client === "web" ? title.web : title.others } </h2>
         </div>
 

@@ -14,7 +14,7 @@ import SocialItem from './Components/SocialItem';
             <Header />
             <Text />
             <Social />
-            <SocialItem />
+            
           </div>
           
       );
