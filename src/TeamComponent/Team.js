@@ -16,6 +16,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '654654683',
+                        website:'www.lkavdlb.com',
                     }}
                 />
                 <TeamMember 
@@ -26,6 +27,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '6546874983',
+                        website:"",
                     }}
                 />
             
@@ -37,6 +39,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '32168465168',
+                        website:'www.lkavdlb.com',
                     }}
                 />
            
@@ -48,6 +51,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '3643216846',
+                        website:"",
                     }}
                 />
                 
@@ -59,6 +63,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '3643216846',
+                        website:'www.lkavdlb.com',
                     }}
                 />
                 
@@ -70,6 +75,7 @@ function Team(){
                         address:'Hamra',
                         email:'dodododo@googogogog.com',
                         phone: '3643216846',
+                        website:"",
                     }}
                 />
         
