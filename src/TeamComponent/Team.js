@@ -14,6 +14,7 @@ function Team(){
                         name:'dede',
                         nick:'lele',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '654654683',
                     }}
                 />
@@ -23,6 +24,7 @@ function Team(){
                         name:'lolo ',
                         nick:'fofo',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '6546874983',
                     }}
                 />
@@ -33,6 +35,7 @@ function Team(){
                         name:'meme',
                         nick:'soso',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '32168465168',
                     }}
                 />
@@ -43,6 +46,7 @@ function Team(){
                         name:'dada',
                         nick:'koko',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '3643216846',
                     }}
                 />
@@ -53,6 +57,7 @@ function Team(){
                         name:'dada',
                         nick:'koko',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '3643216846',
                     }}
                 />
@@ -63,6 +68,7 @@ function Team(){
                         name:'dada',
                         nick:'koko',
                         address:'Hamra',
+                        email:'dodododo@googogogog.com',
                         phone: '3643216846',
                     }}
                 />

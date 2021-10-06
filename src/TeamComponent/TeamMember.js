@@ -6,11 +6,12 @@ function TeamMember(props){
        <div className="clo-md-4 col-sm-4 container " >
             <div className="card">
                     <div className="card-header">
-                    <img src={props.obj.img}/>
+                    <img src={props.obj.img} style={{maxWidth:'100%'}}/>
                     </div>
                     <div className="card-body">
                         <h3>{`Name: ${props.obj.name} ${props.obj.nick}`}</h3>
                         <p>{`Address: ${props.obj.address}`}</p>
+                        <p>{`Email: ${props.obj.email}`}</p>
                         <p>{`Phone Number: ${props.obj.phone}`}</p>
                     </div>    
             </div>
