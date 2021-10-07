@@ -1,16 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 
-function TeamHeader (){
+class TeamHeader extends Component{
 
-
-    return (
-    
-    <div className="container">
-        <div>
-        <h2 className="navbar bg-black text-white rounded"> Our Team </h2>
+    render(){
+        return (
+        
+        <div className="container">
+            <div>
+            <h2 className="navbar bg-black text-white rounded" style={{textAlign:"center"}}> Our Team </h2>
+            </div>
         </div>
-    </div>
-    );
+        );
+    }
 }
 
 export default TeamHeader

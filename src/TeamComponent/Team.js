@@ -1,31 +1,40 @@
-import React from "react";
+import React, { Component } from "react";
 import TeamMember from "./TeamMember";
-import TeamData from "./TeamData";
+import info from "./TeamData";
 
 
-function Team(){
+class Team extends Component{
+    constructor(){
+        super()
+        this.state = { memberInfo : info }
+    }
 
+    mapping(x){
+        const members = x.map(member =>
+            <TeamMember 
+                key={member.id}
+                img={member.img}
+                name={member.name}
+                nick={member.nick}
+                address={member.address}
+                email={member.email}
+                phone={member.phone}
+                website={member.website}
+                />
+            
+        );
+        return members;
+    }
+
+    render(){
     
-    const Members =  TeamData.call().map(member =>
-         <TeamMember 
-            key={member.id}
-            img={member.img}
-            name={member.name}
-            nick={member.nick}
-            address={member.address}
-            email={member.email}
-            phone={member.phone}
-            website={member.website}
-            />
-          
-    );
-
-
-    return (
-        <div className="row" >
-             {Members}
-        </div>
-    );
+       
+            return (
+                <div className="row" >
+                    {this.mapping(this.state.memberInfo)}
+                </div>
+            );
+    }
 }
 
 export default Team;
