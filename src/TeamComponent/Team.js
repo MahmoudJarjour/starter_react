@@ -7,6 +7,8 @@ class Team extends Component{
     constructor(){
         super()
         this.state = { memberInfo : info }
+
+        this.refreshPage = this.refreshPage.bind(this);
     }
 
     mapping(x){
@@ -26,13 +28,20 @@ class Team extends Component{
         return members;
     }
 
+    refreshPage(){
+        
+    window.location.reload(false);
+    }
+
     render(){
     
        
             return (
                 <div className="row" >
                     {this.mapping(this.state.memberInfo)}
+                    <button className="btn btn-primary" onClick={this.refreshPage}>Refresh the Images</button>
                 </div>
+
             );
     }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Test from './ComponentEvent/Test'
-
+import TeamHeader from './TeamComponent/TeamHeader'
+import Team from './TeamComponent/Team'
 
   class App extends Component {
     render(){
@@ -9,7 +9,9 @@ import Test from './ComponentEvent/Test'
           <div className="container">
            
             <div>
-              <Test />
+              <TeamHeader />
+              <Team />
+
 
             </div>
             
