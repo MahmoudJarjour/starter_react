@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Team from './TeamComponent/Team';
-import TeamHeader from './TeamComponent/TeamHeader';
+import Test from './ComponentEvent/Test'
 
 
   class App extends Component {
     render(){
         return (
           <div className="container">
-            
+           
             <div>
-              <TeamHeader />
-              <Team />
+              <Test />
+
             </div>
             
             
